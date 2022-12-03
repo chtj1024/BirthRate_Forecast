@@ -1,0 +1,1481 @@
+WARNING:py.warnings:C:\Users\chlqn\AppData\Local\Temp/ipykernel_11716/1277526000.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  babies['date'] = pd.to_datetime(babies.index, format='%Y')
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Local\Temp/ipykernel_11716/2974088569.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  babies['date'] = pd.to_datetime(babies.index, format='%Y')
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Local\Temp/ipykernel_11716/3207446858.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  babies['date'] = pd.to_datetime(babies.index, format='%Y') # date컬럼에 index의 연도를 가져와서 datetime 형태로 변환 후 삽입.
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Local\Temp/ipykernel_11716/2920739146.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  babies['date'] = pd.to_datetime(babies.index, format='%Y') # date컬럼에 index의 연도를 가져와서 datetime 형태로 변환 후 삽입.
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\arima_model.py:472: FutureWarning: 
+statsmodels.tsa.arima_model.ARMA and statsmodels.tsa.arima_model.ARIMA have
+been deprecated in favor of statsmodels.tsa.arima.model.ARIMA (note the .
+between arima and model) and
+statsmodels.tsa.SARIMAX. These will be removed after the 0.12 release.
+
+statsmodels.tsa.arima.model.ARIMA makes use of the statespace framework and
+is both well tested and maintained.
+
+To silence this warning and continue using ARMA and ARIMA until they are
+removed, use:
+
+import warnings
+warnings.filterwarnings('ignore', 'statsmodels.tsa.arima_model.ARMA',
+                        FutureWarning)
+warnings.filterwarnings('ignore', 'statsmodels.tsa.arima_model.ARIMA',
+                        FutureWarning)
+
+  warnings.warn(ARIMA_DEPRECATION_WARN, FutureWarning)
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\arima_model.py:472: FutureWarning: 
+statsmodels.tsa.arima_model.ARMA and statsmodels.tsa.arima_model.ARIMA have
+been deprecated in favor of statsmodels.tsa.arima.model.ARIMA (note the .
+between arima and model) and
+statsmodels.tsa.SARIMAX. These will be removed after the 0.12 release.
+
+statsmodels.tsa.arima.model.ARIMA makes use of the statespace framework and
+is both well tested and maintained.
+
+To silence this warning and continue using ARMA and ARIMA until they are
+removed, use:
+
+import warnings
+warnings.filterwarnings('ignore', 'statsmodels.tsa.arima_model.ARMA',
+                        FutureWarning)
+warnings.filterwarnings('ignore', 'statsmodels.tsa.arima_model.ARIMA',
+                        FutureWarning)
+
+  warnings.warn(ARIMA_DEPRECATION_WARN, FutureWarning)
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\arima_model.py:472: FutureWarning: 
+statsmodels.tsa.arima_model.ARMA and statsmodels.tsa.arima_model.ARIMA have
+been deprecated in favor of statsmodels.tsa.arima.model.ARIMA (note the .
+between arima and model) and
+statsmodels.tsa.SARIMAX. These will be removed after the 0.12 release.
+
+statsmodels.tsa.arima.model.ARIMA makes use of the statespace framework and
+is both well tested and maintained.
+
+To silence this warning and continue using ARMA and ARIMA until they are
+removed, use:
+
+import warnings
+warnings.filterwarnings('ignore', 'statsmodels.tsa.arima_model.ARMA',
+                        FutureWarning)
+warnings.filterwarnings('ignore', 'statsmodels.tsa.arima_model.ARIMA',
+                        FutureWarning)
+
+  warnings.warn(ARIMA_DEPRECATION_WARN, FutureWarning)
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\arima_model.py:472: FutureWarning: 
+statsmodels.tsa.arima_model.ARMA and statsmodels.tsa.arima_model.ARIMA have
+been deprecated in favor of statsmodels.tsa.arima.model.ARIMA (note the .
+between arima and model) and
+statsmodels.tsa.SARIMAX. These will be removed after the 0.12 release.
+
+statsmodels.tsa.arima.model.ARIMA makes use of the statespace framework and
+is both well tested and maintained.
+
+To silence this warning and continue using ARMA and ARIMA until they are
+removed, use:
+
+import warnings
+warnings.filterwarnings('ignore', 'statsmodels.tsa.arima_model.ARMA',
+                        FutureWarning)
+warnings.filterwarnings('ignore', 'statsmodels.tsa.arima_model.ARIMA',
+                        FutureWarning)
+
+  warnings.warn(ARIMA_DEPRECATION_WARN, FutureWarning)
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\arima_model.py:472: FutureWarning: 
+statsmodels.tsa.arima_model.ARMA and statsmodels.tsa.arima_model.ARIMA have
+been deprecated in favor of statsmodels.tsa.arima.model.ARIMA (note the .
+between arima and model) and
+statsmodels.tsa.SARIMAX. These will be removed after the 0.12 release.
+
+statsmodels.tsa.arima.model.ARIMA makes use of the statespace framework and
+is both well tested and maintained.
+
+To silence this warning and continue using ARMA and ARIMA until they are
+removed, use:
+
+import warnings
+warnings.filterwarnings('ignore', 'statsmodels.tsa.arima_model.ARMA',
+                        FutureWarning)
+warnings.filterwarnings('ignore', 'statsmodels.tsa.arima_model.ARIMA',
+                        FutureWarning)
+
+  warnings.warn(ARIMA_DEPRECATION_WARN, FutureWarning)
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\arima_model.py:472: FutureWarning: 
+statsmodels.tsa.arima_model.ARMA and statsmodels.tsa.arima_model.ARIMA have
+been deprecated in favor of statsmodels.tsa.arima.model.ARIMA (note the .
+between arima and model) and
+statsmodels.tsa.SARIMAX. These will be removed after the 0.12 release.
+
+statsmodels.tsa.arima.model.ARIMA makes use of the statespace framework and
+is both well tested and maintained.
+
+To silence this warning and continue using ARMA and ARIMA until they are
+removed, use:
+
+import warnings
+warnings.filterwarnings('ignore', 'statsmodels.tsa.arima_model.ARMA',
+                        FutureWarning)
+warnings.filterwarnings('ignore', 'statsmodels.tsa.arima_model.ARIMA',
+                        FutureWarning)
+
+  warnings.warn(ARIMA_DEPRECATION_WARN, FutureWarning)
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\arima_model.py:472: FutureWarning: 
+statsmodels.tsa.arima_model.ARMA and statsmodels.tsa.arima_model.ARIMA have
+been deprecated in favor of statsmodels.tsa.arima.model.ARIMA (note the .
+between arima and model) and
+statsmodels.tsa.SARIMAX. These will be removed after the 0.12 release.
+
+statsmodels.tsa.arima.model.ARIMA makes use of the statespace framework and
+is both well tested and maintained.
+
+To silence this warning and continue using ARMA and ARIMA until they are
+removed, use:
+
+import warnings
+warnings.filterwarnings('ignore', 'statsmodels.tsa.arima_model.ARMA',
+                        FutureWarning)
+warnings.filterwarnings('ignore', 'statsmodels.tsa.arima_model.ARIMA',
+                        FutureWarning)
+
+  warnings.warn(ARIMA_DEPRECATION_WARN, FutureWarning)
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\tsatools.py:728: RuntimeWarning: divide by zero encountered in log
+  invmacoefs = -np.log((1-macoefs)/(1+macoefs))
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\scipy\optimize\_numdiff.py:470: RuntimeWarning: invalid value encountered in subtract
+  dx = ((x0 + h) - x0)
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\scipy\optimize\_numdiff.py:556: RuntimeWarning: invalid value encountered in double_scalars
+  dx = x[i] - x0[i]  # Recompute dx as exactly representable number.
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\base\model.py:547: HessianInversionWarning: Inverting hessian failed, no bse or cov_params available
+  warnings.warn('Inverting hessian failed, no bse or cov_params '
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\arima_model.py:472: FutureWarning: 
+statsmodels.tsa.arima_model.ARMA and statsmodels.tsa.arima_model.ARIMA have
+been deprecated in favor of statsmodels.tsa.arima.model.ARIMA (note the .
+between arima and model) and
+statsmodels.tsa.SARIMAX. These will be removed after the 0.12 release.
+
+statsmodels.tsa.arima.model.ARIMA makes use of the statespace framework and
+is both well tested and maintained.
+
+To silence this warning and continue using ARMA and ARIMA until they are
+removed, use:
+
+import warnings
+warnings.filterwarnings('ignore', 'statsmodels.tsa.arima_model.ARMA',
+                        FutureWarning)
+warnings.filterwarnings('ignore', 'statsmodels.tsa.arima_model.ARIMA',
+                        FutureWarning)
+
+  warnings.warn(ARIMA_DEPRECATION_WARN, FutureWarning)
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\base\model.py:547: HessianInversionWarning: Inverting hessian failed, no bse or cov_params available
+  warnings.warn('Inverting hessian failed, no bse or cov_params '
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\arima_model.py:472: FutureWarning: 
+statsmodels.tsa.arima_model.ARMA and statsmodels.tsa.arima_model.ARIMA have
+been deprecated in favor of statsmodels.tsa.arima.model.ARIMA (note the .
+between arima and model) and
+statsmodels.tsa.SARIMAX. These will be removed after the 0.12 release.
+
+statsmodels.tsa.arima.model.ARIMA makes use of the statespace framework and
+is both well tested and maintained.
+
+To silence this warning and continue using ARMA and ARIMA until they are
+removed, use:
+
+import warnings
+warnings.filterwarnings('ignore', 'statsmodels.tsa.arima_model.ARMA',
+                        FutureWarning)
+warnings.filterwarnings('ignore', 'statsmodels.tsa.arima_model.ARIMA',
+                        FutureWarning)
+
+  warnings.warn(ARIMA_DEPRECATION_WARN, FutureWarning)
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\arima_model.py:472: FutureWarning: 
+statsmodels.tsa.arima_model.ARMA and statsmodels.tsa.arima_model.ARIMA have
+been deprecated in favor of statsmodels.tsa.arima.model.ARIMA (note the .
+between arima and model) and
+statsmodels.tsa.SARIMAX. These will be removed after the 0.12 release.
+
+statsmodels.tsa.arima.model.ARIMA makes use of the statespace framework and
+is both well tested and maintained.
+
+To silence this warning and continue using ARMA and ARIMA until they are
+removed, use:
+
+import warnings
+warnings.filterwarnings('ignore', 'statsmodels.tsa.arima_model.ARMA',
+                        FutureWarning)
+warnings.filterwarnings('ignore', 'statsmodels.tsa.arima_model.ARIMA',
+                        FutureWarning)
+
+  warnings.warn(ARIMA_DEPRECATION_WARN, FutureWarning)
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Local\Temp/ipykernel_11716/2920739146.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  babies['date'] = pd.to_datetime(babies.index, format='%Y') # date컬럼에 index의 연도를 가져와서 datetime 형태로 변환 후 삽입.
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\arima_model.py:472: FutureWarning: 
+statsmodels.tsa.arima_model.ARMA and statsmodels.tsa.arima_model.ARIMA have
+been deprecated in favor of statsmodels.tsa.arima.model.ARIMA (note the .
+between arima and model) and
+statsmodels.tsa.SARIMAX. These will be removed after the 0.12 release.
+
+statsmodels.tsa.arima.model.ARIMA makes use of the statespace framework and
+is both well tested and maintained.
+
+To silence this warning and continue using ARMA and ARIMA until they are
+removed, use:
+
+import warnings
+warnings.filterwarnings('ignore', 'statsmodels.tsa.arima_model.ARMA',
+                        FutureWarning)
+warnings.filterwarnings('ignore', 'statsmodels.tsa.arima_model.ARIMA',
+                        FutureWarning)
+
+  warnings.warn(ARIMA_DEPRECATION_WARN, FutureWarning)
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\statsmodels\tsa\base\tsa_model.py:524: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  warnings.warn('No frequency information was'
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\graphics\tsaplots.py:348: FutureWarning: The default method 'yw' can produce PACF values outside of the [-1,1] interval. After 0.13, the default will change tounadjusted Yule-Walker ('ywm'). You can use this method now by setting method='ywm'.
+  warnings.warn(
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Local\Temp/ipykernel_5592/2920739146.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  babies['date'] = pd.to_datetime(babies.index, format='%Y') # date컬럼에 index의 연도를 가져와서 datetime 형태로 변환 후 삽입.
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  self._init_dates(dates, freq)
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  self._init_dates(dates, freq)
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  self._init_dates(dates, freq)
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  self._init_dates(dates, freq)
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  self._init_dates(dates, freq)
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  self._init_dates(dates, freq)
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  self._init_dates(dates, freq)
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  self._init_dates(dates, freq)
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  self._init_dates(dates, freq)
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\graphics\tsaplots.py:348: FutureWarning: The default method 'yw' can produce PACF values outside of the [-1,1] interval. After 0.13, the default will change tounadjusted Yule-Walker ('ywm'). You can use this method now by setting method='ywm'.
+  warnings.warn(
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Local\Temp/ipykernel_5592/2920739146.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  babies['date'] = pd.to_datetime(babies.index, format='%Y') # date컬럼에 index의 연도를 가져와서 datetime 형태로 변환 후 삽입.
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  self._init_dates(dates, freq)
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  self._init_dates(dates, freq)
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  self._init_dates(dates, freq)
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  self._init_dates(dates, freq)
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  self._init_dates(dates, freq)
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  self._init_dates(dates, freq)
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  self._init_dates(dates, freq)
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  self._init_dates(dates, freq)
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  self._init_dates(dates, freq)
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  self._init_dates(dates, freq)
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  self._init_dates(dates, freq)
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  self._init_dates(dates, freq)
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  self._init_dates(dates, freq)
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  self._init_dates(dates, freq)
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  self._init_dates(dates, freq)
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\graphics\tsaplots.py:348: FutureWarning: The default method 'yw' can produce PACF values outside of the [-1,1] interval. After 0.13, the default will change tounadjusted Yule-Walker ('ywm'). You can use this method now by setting method='ywm'.
+  warnings.warn(
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Local\Temp/ipykernel_5592/2920739146.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  babies['date'] = pd.to_datetime(babies.index, format='%Y') # date컬럼에 index의 연도를 가져와서 datetime 형태로 변환 후 삽입.
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  self._init_dates(dates, freq)
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  self._init_dates(dates, freq)
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  self._init_dates(dates, freq)
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\graphics\tsaplots.py:348: FutureWarning: The default method 'yw' can produce PACF values outside of the [-1,1] interval. After 0.13, the default will change tounadjusted Yule-Walker ('ywm'). You can use this method now by setting method='ywm'.
+  warnings.warn(
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Local\Temp/ipykernel_10188/2920739146.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  babies['date'] = pd.to_datetime(babies.index, format='%Y') # date컬럼에 index의 연도를 가져와서 datetime 형태로 변환 후 삽입.
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  self._init_dates(dates, freq)
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  self._init_dates(dates, freq)
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  self._init_dates(dates, freq)
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\graphics\tsaplots.py:348: FutureWarning: The default method 'yw' can produce PACF values outside of the [-1,1] interval. After 0.13, the default will change tounadjusted Yule-Walker ('ywm'). You can use this method now by setting method='ywm'.
+  warnings.warn(
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Local\Temp/ipykernel_10188/2920739146.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  babies['date'] = pd.to_datetime(babies.index, format='%Y') # date컬럼에 index의 연도를 가져와서 datetime 형태로 변환 후 삽입.
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  self._init_dates(dates, freq)
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  self._init_dates(dates, freq)
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  self._init_dates(dates, freq)
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\graphics\tsaplots.py:348: FutureWarning:
+
+The default method 'yw' can produce PACF values outside of the [-1,1] interval. After 0.13, the default will change tounadjusted Yule-Walker ('ywm'). You can use this method now by setting method='ywm'.
+
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Local\Temp/ipykernel_10188/2920739146.py:1: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning:
+
+No frequency information was provided, so inferred frequency AS-JAN will be used.
+
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning:
+
+No frequency information was provided, so inferred frequency AS-JAN will be used.
+
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning:
+
+No frequency information was provided, so inferred frequency AS-JAN will be used.
+
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\graphics\tsaplots.py:348: FutureWarning:
+
+The default method 'yw' can produce PACF values outside of the [-1,1] interval. After 0.13, the default will change tounadjusted Yule-Walker ('ywm'). You can use this method now by setting method='ywm'.
+
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Local\Temp/ipykernel_10188/2920739146.py:1: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning:
+
+No frequency information was provided, so inferred frequency AS-JAN will be used.
+
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning:
+
+No frequency information was provided, so inferred frequency AS-JAN will be used.
+
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning:
+
+No frequency information was provided, so inferred frequency AS-JAN will be used.
+
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\graphics\tsaplots.py:348: FutureWarning:
+
+The default method 'yw' can produce PACF values outside of the [-1,1] interval. After 0.13, the default will change tounadjusted Yule-Walker ('ywm'). You can use this method now by setting method='ywm'.
+
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Local\Temp/ipykernel_10188/2920739146.py:1: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning:
+
+No frequency information was provided, so inferred frequency AS-JAN will be used.
+
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning:
+
+No frequency information was provided, so inferred frequency AS-JAN will be used.
+
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning:
+
+No frequency information was provided, so inferred frequency AS-JAN will be used.
+
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\graphics\tsaplots.py:348: FutureWarning:
+
+The default method 'yw' can produce PACF values outside of the [-1,1] interval. After 0.13, the default will change tounadjusted Yule-Walker ('ywm'). You can use this method now by setting method='ywm'.
+
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Local\Temp/ipykernel_10188/2920739146.py:1: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning:
+
+No frequency information was provided, so inferred frequency AS-JAN will be used.
+
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning:
+
+No frequency information was provided, so inferred frequency AS-JAN will be used.
+
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning:
+
+No frequency information was provided, so inferred frequency AS-JAN will be used.
+
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\graphics\tsaplots.py:348: FutureWarning:
+
+The default method 'yw' can produce PACF values outside of the [-1,1] interval. After 0.13, the default will change tounadjusted Yule-Walker ('ywm'). You can use this method now by setting method='ywm'.
+
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Local\Temp/ipykernel_10188/2920739146.py:1: SettingWithCopyWarning:
+
+
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning:
+
+No frequency information was provided, so inferred frequency AS-JAN will be used.
+
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning:
+
+No frequency information was provided, so inferred frequency AS-JAN will be used.
+
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning:
+
+No frequency information was provided, so inferred frequency AS-JAN will be used.
+
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\matplotlib\backends\backend_agg.py:240: RuntimeWarning: Glyph 50672 missing from current font.
+  font.set_text(s, 0.0, flags=flags)
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\matplotlib\backends\backend_agg.py:240: RuntimeWarning: Glyph 46020 missing from current font.
+  font.set_text(s, 0.0, flags=flags)
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\matplotlib\backends\backend_agg.py:240: RuntimeWarning: Glyph 54633 missing from current font.
+  font.set_text(s, 0.0, flags=flags)
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\matplotlib\backends\backend_agg.py:240: RuntimeWarning: Glyph 44228 missing from current font.
+  font.set_text(s, 0.0, flags=flags)
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\matplotlib\backends\backend_agg.py:240: RuntimeWarning: Glyph 52636 missing from current font.
+  font.set_text(s, 0.0, flags=flags)
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\matplotlib\backends\backend_agg.py:240: RuntimeWarning: Glyph 49328 missing from current font.
+  font.set_text(s, 0.0, flags=flags)
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\matplotlib\backends\backend_agg.py:240: RuntimeWarning: Glyph 50984 missing from current font.
+  font.set_text(s, 0.0, flags=flags)
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\matplotlib\backends\backend_agg.py:203: RuntimeWarning: Glyph 50672 missing from current font.
+  font.set_text(s, 0, flags=flags)
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\matplotlib\backends\backend_agg.py:203: RuntimeWarning: Glyph 46020 missing from current font.
+  font.set_text(s, 0, flags=flags)
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\matplotlib\backends\backend_agg.py:203: RuntimeWarning: Glyph 54633 missing from current font.
+  font.set_text(s, 0, flags=flags)
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\matplotlib\backends\backend_agg.py:203: RuntimeWarning: Glyph 44228 missing from current font.
+  font.set_text(s, 0, flags=flags)
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\matplotlib\backends\backend_agg.py:203: RuntimeWarning: Glyph 52636 missing from current font.
+  font.set_text(s, 0, flags=flags)
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\matplotlib\backends\backend_agg.py:203: RuntimeWarning: Glyph 49328 missing from current font.
+  font.set_text(s, 0, flags=flags)
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\matplotlib\backends\backend_agg.py:203: RuntimeWarning: Glyph 50984 missing from current font.
+  font.set_text(s, 0, flags=flags)
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\matplotlib\backends\backend_agg.py:240: RuntimeWarning: Glyph 50672 missing from current font.
+  font.set_text(s, 0.0, flags=flags)
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\matplotlib\backends\backend_agg.py:240: RuntimeWarning: Glyph 46020 missing from current font.
+  font.set_text(s, 0.0, flags=flags)
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\matplotlib\backends\backend_agg.py:240: RuntimeWarning: Glyph 54633 missing from current font.
+  font.set_text(s, 0.0, flags=flags)
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\matplotlib\backends\backend_agg.py:240: RuntimeWarning: Glyph 44228 missing from current font.
+  font.set_text(s, 0.0, flags=flags)
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\matplotlib\backends\backend_agg.py:240: RuntimeWarning: Glyph 52636 missing from current font.
+  font.set_text(s, 0.0, flags=flags)
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\matplotlib\backends\backend_agg.py:240: RuntimeWarning: Glyph 49328 missing from current font.
+  font.set_text(s, 0.0, flags=flags)
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\matplotlib\backends\backend_agg.py:240: RuntimeWarning: Glyph 50984 missing from current font.
+  font.set_text(s, 0.0, flags=flags)
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\matplotlib\backends\backend_agg.py:203: RuntimeWarning: Glyph 50672 missing from current font.
+  font.set_text(s, 0, flags=flags)
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\matplotlib\backends\backend_agg.py:203: RuntimeWarning: Glyph 46020 missing from current font.
+  font.set_text(s, 0, flags=flags)
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\matplotlib\backends\backend_agg.py:203: RuntimeWarning: Glyph 54633 missing from current font.
+  font.set_text(s, 0, flags=flags)
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\matplotlib\backends\backend_agg.py:203: RuntimeWarning: Glyph 44228 missing from current font.
+  font.set_text(s, 0, flags=flags)
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\matplotlib\backends\backend_agg.py:203: RuntimeWarning: Glyph 52636 missing from current font.
+  font.set_text(s, 0, flags=flags)
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\matplotlib\backends\backend_agg.py:203: RuntimeWarning: Glyph 49328 missing from current font.
+  font.set_text(s, 0, flags=flags)
+
+WARNING:py.warnings:C:\Users\chlqn\anaconda3\lib\site-packages\matplotlib\backends\backend_agg.py:203: RuntimeWarning: Glyph 50984 missing from current font.
+  font.set_text(s, 0, flags=flags)
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\graphics\tsaplots.py:348: FutureWarning: The default method 'yw' can produce PACF values outside of the [-1,1] interval. After 0.13, the default will change tounadjusted Yule-Walker ('ywm'). You can use this method now by setting method='ywm'.
+  warnings.warn(
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Local\Temp/ipykernel_5224/2920739146.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  babies['date'] = pd.to_datetime(babies.index, format='%Y') # date컬럼에 index의 연도를 가져와서 datetime 형태로 변환 후 삽입.
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  self._init_dates(dates, freq)
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  self._init_dates(dates, freq)
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  self._init_dates(dates, freq)
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\graphics\tsaplots.py:348: FutureWarning: The default method 'yw' can produce PACF values outside of the [-1,1] interval. After 0.13, the default will change tounadjusted Yule-Walker ('ywm'). You can use this method now by setting method='ywm'.
+  warnings.warn(
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Local\Temp/ipykernel_5224/2920739146.py:1: SettingWithCopyWarning: 
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  babies['date'] = pd.to_datetime(babies.index, format='%Y') # date컬럼에 index의 연도를 가져와서 datetime 형태로 변환 후 삽입.
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  self._init_dates(dates, freq)
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  self._init_dates(dates, freq)
+
+WARNING:py.warnings:C:\Users\chlqn\AppData\Roaming\Python\Python39\site-packages\statsmodels\tsa\base\tsa_model.py:471: ValueWarning: No frequency information was provided, so inferred frequency AS-JAN will be used.
+  self._init_dates(dates, freq)
+

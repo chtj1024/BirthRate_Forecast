@@ -1,0 +1,19 @@
+출처 : https://jimmy-ai.tistory.com/90
+
+list : 숫자형, 문자열 등 모든 타입 보존 가능
+numpy array : 숫자형, 문자열이 섞이면 모두 문자열로 전환.
+
+list는 덧셈시 항목만 이어 붙임. 또한 곱셉은 그만큼 항목을 복사함.
+numpy array는 모든 연산 수행 가능.
+
+■ 메소드
+  ● list
+    a.append(7)
+    a.extend([9])
+    a.remove(9)
+  ● array
+    b.mean()
+    b.argmax()
+    b.round()
+
+연산속도는 numpy array가 더 빠르다.

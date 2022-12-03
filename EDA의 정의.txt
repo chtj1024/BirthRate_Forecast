@@ -1,0 +1,4 @@
+https://velog.io/@yuns_u/EDA-Exploratory-Data-Analysis
+
+EDA(Exploratory Data Analysis)란 탐색적 데이터 분석.
+-> 데이터 분석을 하기 바로 전에 데이터가 어떤 구조(결측값 등)를 가지고 있는지 파악하고 이해하는 것.

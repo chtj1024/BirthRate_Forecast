@@ -1,0 +1,3 @@
+https://kosis.kr/statHtml/statHtml.do?orgId=101&tblId=INH_1B8000F_01&conn_path=I2
+
+https://kosis.kr/visual/populationKorea/PopulationByNumber/PopulationByNumberMain.do?mb=Y&menuId=M_1_2&themaId=B01
