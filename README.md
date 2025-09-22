@@ -1,1 +1,1 @@
-- [./sources/predict_babies_arima.ipynb]
+- [predict_babies_arima.ipynb](./sources/predict_babies_arima.ipynb)
