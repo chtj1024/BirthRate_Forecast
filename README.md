@@ -9,7 +9,8 @@
 - 데이터 분석
 - 데이터 예측
 
-[predict_babies_arima.ipynb](2022_BigData_Project/sources/predict_babies_arima.ipynb)
+[프로젝트 jupyter notebook](2022_BigData_Project/sources/predict_babies_arima.ipynb)
+
 
 
 
