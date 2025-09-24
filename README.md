@@ -9,7 +9,14 @@
 - 데이터 분석
 - 데이터 예측
 
+## 사용된 기술 및 라이브러리
+- Python
+- Pandas
+- Matplotlib
+- Arima
+
 [프로젝트 jupyter notebook](2022_BigData_Project/sources/predict_babies_arima.ipynb)
+
 
 
 
