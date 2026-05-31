@@ -15,7 +15,7 @@
 - Matplotlib
 - Arima
 
-[프로젝트 jupyter notebook](2022_BigData_Project/sources/predict_babies_arima.ipynb)
+[프로젝트 jupyter notebook]([2022_BigData_Project/sources/predict_babies_arima.ipynb](https://nbviewer.jupyter.org/github/))
 
 
 
